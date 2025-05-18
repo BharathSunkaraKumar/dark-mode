@@ -133,6 +133,14 @@ body{
     text-transform: capitalize;
 }
 
+@media screen and (max-width:500px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+}
 
 
 /* .toggle-slider button:active{
